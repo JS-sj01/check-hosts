@@ -10,7 +10,7 @@ def sshExeCMD():
   ssh_client=paramiko.SSHClient()
   ssh_client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
   try:
-    ssh_client.connect(hostname="10.10.13.41", port="22", username="root", password="1qaz!@#2WSX")
+    ssh_client.connect(hostname="10.10.13.41", port="22", username="root", password="XXXXX")
   except Exception as err:
       print("10.10.13.41 ssh failed")
       print(err)
@@ -24,7 +24,7 @@ def sshExeCMD():
       }
       msg = NMail(username="suj@tecorigin.com", password="bsxiSF8odxR97Vkg")
       msg.send_email(data)
-      #os.system('ipmitool -I lanplus -H 10.10.13.38 -U ADMIN -P Test@123 power  reset')
+      #os.system('ipmitool -I lanplus -H 10.10.13.38 -U ADMIN -P Test@XXXX power  reset')
       break
 
       #sys.exit()
