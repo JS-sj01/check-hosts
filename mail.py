@@ -55,9 +55,9 @@ if __name__ == "__main__":
     data = {
         "subject": "测试",
         "content": "带附件测试",
-        "receiver": "1185904857@qq.com",
+        "receiver": "1xxxxxx@qq.com",
         "attachments":"connect_result.log"
     }
-    msg = NMail(username="suj@tecorigin.com", password="bsxiSF8odxR97Vkg")
+    msg = NMail(username="suj@xxxxx.com", password="bxxxx")
     msg.send_email(data)
 
