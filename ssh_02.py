@@ -20,9 +20,9 @@ def sshExeCMD():
       data = {
           "subject": "10.10.13.41 ssh failed"+str(nowTime),
           "content":  str(err),
-          "receiver": "tecorigin_ops@tecorigin.com"
+          "receiver": "texxxxxs@xxxx.com"
       }
-      msg = NMail(username="suj@tecorigin.com", password="bsxiSF8odxR97Vkg")
+      msg = NMail(username="suj@xxxxx.com", password="bxxxxx")
       msg.send_email(data)
       #os.system('ipmitool -I lanplus -H 10.10.13.38 -U ADMIN -P Test@XXXX power  reset')
       break
